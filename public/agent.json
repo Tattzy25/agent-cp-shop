@@ -1,24 +1,14 @@
-   {
-     "version": "2026-04-08",
-     "name": "My UCP Agent",
-     "capabilities": {
-       "dev.ucp.shopping.catalog.search": [
-         { "version": "2026-04-08" }
-       ],
-       "dev.ucp.shopping.catalog.lookup": [
-         { "version": "2026-04-08" }
-       ],
-       "dev.ucp.shopping.catalog.get_product": [
-         { "version": "2026-04-08" }
-       ],
-       "dev.ucp.shopping.cart.get": [
-         { "version": "2026-04-08" }
-       ],
-       "dev.ucp.shopping.cart.update": [
-         { "version": "2026-04-08" }
-       ],
-       "dev.ucp.shopping.storefront.policies": [
-         { "version": "2026-04-08" }
-       ]
-     }
-   }
+{
+  "ucp": {
+    "version": "2026-04-08"
+  },
+  "name": "My UCP Agent",
+  "capabilities": {
+    "dev.ucp.shopping.catalog.search": [{ "version": "2026-04-08" }],
+    "dev.ucp.shopping.catalog.lookup": [{ "version": "2026-04-08" }],
+    "dev.ucp.shopping.catalog.get_product": [{ "version": "2026-04-08" }],
+    "dev.ucp.shopping.cart.get": [{ "version": "2026-04-08" }],
+    "dev.ucp.shopping.cart.update": [{ "version": "2026-04-08" }],
+    "dev.ucp.shopping.storefront.policies": [{ "version": "2026-04-08" }]
+  }
+}
