@@ -10,6 +10,15 @@
        ],
        "dev.ucp.shopping.catalog.get_product": [
          { "version": "2026-04-08" }
+       ],
+       "dev.ucp.shopping.cart.get": [
+         { "version": "2026-04-08" }
+       ],
+       "dev.ucp.shopping.cart.update": [
+         { "version": "2026-04-08" }
+       ],
+       "dev.ucp.shopping.storefront.policies": [
+         { "version": "2026-04-08" }
        ]
      }
    }
