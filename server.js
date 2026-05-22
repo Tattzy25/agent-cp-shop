@@ -10,7 +10,7 @@ app.use(express.json());
 
 const sessions = new Map();
 
-app.get('/agent.json', (req, res) => {
+app.get('/agent-profile.json', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'agent.json'));
 });
 
